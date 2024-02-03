@@ -1,0 +1,58 @@
+:root {
+    --acent-color-blue:#03A9F4;
+    --acent-color-nav:#7D7D7D;
+    --acent-color-main:#626262;
+    --acent-color-gray:#B4AD9E;
+    --acent-color-white: #FFF;
+}
+
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+.header-link-blue-lifestyle {
+    color: var(--acent-color-blue);
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.header-link {
+    color: var(--acent-color-nav);
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+span {
+    color: var(--acent-color-gray);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.post-title-text {
+    color: var(--acent-color-main);
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.post-info-text {
+    color: var(--acent-color-main);
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.lifestyle-button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border: 1;
+    padding: 14px 38px;
+    background-color: var(--acent-color-white);
+    border-color: var(--acent-color-main);
+    color: var(--acent-color-main);
+}

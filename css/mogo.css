@@ -1,0 +1,105 @@
+:root {
+    --acent-color-aqua: #95E1D3;
+    --acent-color-orange: #F38181;
+    --acent-color-dark: #333333;
+    --acent-color-gray: #B6B6B6;
+}
+
+/*
+font-family: 'Kaushan Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header-navigation {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header-list {
+    life-style: none;
+}
+
+.header-link {
+    color: var(--acent-color-aqua);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-link:hover {
+    color: var(--acent-color-orange);
+}
+
+.we-work-with-title
+.who-we-are-title {
+    color: var(--acent-color-dark);
+}
+
+.we-work-with-title h3
+.who-we-are-title h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+}
+
+.we-work-with-title h2
+.who-we-are-title h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.we-work-with-item {
+    font-size: 15px;
+}
+
+.we-work-with-item h4 {
+    text-transform: uppercase;
+    color: var(--acent-color-dark);
+}
+
+.we-work-with-item p,
+.who-we-are-title {
+    color: var(--acent-color-gray);
+}
+
+.who-we-are-title p {
+    font-size: 15px;
+}
+
+.who-we-are-desc h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: var(--acent-color-dark);
+}
+
+.who-we-are-desc p {
+    font-weight: 300;
+    font-style: italic;
+    color: var(--acent-color-gray);
+}
+
+.footer-copy {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-copy a{
+    color: var(--acent-color-orange);
+}
+
+.footer-button {
+    background-color: var(--acent-color-aqua);
+    border: 0;
+    padding: 12px 38px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
+    font-weight: 700;
+    text-transform: uppercase;
+}
